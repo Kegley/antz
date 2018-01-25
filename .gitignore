@@ -1,4 +1,4 @@
 node_modules
 npm-debug.log
 *.js
-!/colyseus-monitor/lib/*.js
+!/server/colyseus-monitor/lib/*.js
