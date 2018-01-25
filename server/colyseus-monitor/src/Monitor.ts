@@ -122,7 +122,7 @@ export class Monitor {
             options: room.options,
             roomName: room.roomName,
             // state: room.state,   
-            clients: room.clients.map(c => { return c.id })
+            clients: room.clients.map(c => { return c })
         };
 
         if (includeState)

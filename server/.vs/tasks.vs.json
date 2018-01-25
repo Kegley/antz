@@ -1,0 +1,10 @@
+{
+  "version": "0.2.1",
+  "tasks": [
+    {
+      "taskName": "task-Anthill",
+      "appliesTo": "entities/Anthill.ts",
+      "type": "launch"
+    }
+  ]
+}
