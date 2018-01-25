@@ -11,9 +11,9 @@ export class MapHandler extends EventEmitter {
 
 	players;
 	messages = [];
-	anthills = []
-	resources = []
-	objects = []
+	anthills;
+	resources;
+	objects;
 
 	size = {
 		width: 0,
@@ -26,6 +26,9 @@ export class MapHandler extends EventEmitter {
 		this.size = options.size;
 		this.roomClock = roomClock;
 		this.players = new Map();
+		this.anthills = [];
+		this.resources = [];
+		this.objects = [];
 
 	}
 

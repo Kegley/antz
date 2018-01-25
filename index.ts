@@ -3,7 +3,7 @@ import * as express from 'express';
 import * as serveIndex from 'serve-index';
 import { createServer } from 'http';
 import { Server } from 'colyseus';
-import { Monitor } from 'colyseus-monitor';
+import { Monitor } from './colyseus-monitor/';
 
 //add room handler
 import { AntMap } from "./maps/AntMap"

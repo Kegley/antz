@@ -15,7 +15,7 @@ enum Actions {
 	UPDATE_PRIORTIES
 } 
 
-export class AntMap extends Room<MapHandler> {
+export class AntMap extends Room {
 	
 
 	constructor() {
@@ -35,7 +35,6 @@ export class AntMap extends Room<MapHandler> {
 		}
 		this.setState(new MapHandler(this.clock, options))
 		this.state.messages = ["New Ant Farm Map Created"];
-
 		
 	}
 	
@@ -80,12 +79,16 @@ export class AntMap extends Room<MapHandler> {
         console.log(this.roomId, " received message from", client.sessionId, ":", data);
 		switch(data.action) {
 			case Actions.ADD_TO_QUEUE:
+				//{action, task_id}
 				console.log(`Add task to ${ client }'s queue`);
+				break;
+			case Actions.REMOVE_FROM_QUEUE:
+				//{action, task_id}
+				console.log(`Remove task to ${ client }'s queue`);
 				break;
 			case Actions.SET_QUEEN_ROLE:
 				console.log(`Set Queen to ${ data.value } for ${ client }`);
 				break;
-				
 			default:
 				console.log(data.action)
 				break;
