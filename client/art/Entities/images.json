@@ -1,0 +1,20 @@
+{
+    "path": "art/Entities",
+    "images": [
+        {
+            "name": "boy",
+            "file": "boy.png",
+            "type": "entity"
+        },
+        {
+            "name": "catgirl",
+            "file": "catgirl.png",
+            "type": "entity"
+        },
+        {
+            "name": "princess",
+            "file": "princess.png",
+            "type": "entity"
+        }
+    ]
+}

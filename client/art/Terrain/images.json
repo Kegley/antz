@@ -1,0 +1,40 @@
+{
+    "path": "art/Terrain",
+    "images": [
+        {
+            "name": "wood",
+            "file": "1.png",
+            "type": "terrain"
+        },
+        {
+            "name": "clay",
+            "file": "2.png",
+            "type": "terrain"
+        },
+        {
+            "name": "dirt",
+            "file": "3.png",
+            "type": "terrain"
+        },
+        {
+            "name": "grass",
+            "file": "4.png",
+            "type": "terrain"
+        },
+        {
+            "name": "metal",
+            "file": "5.png",
+            "type": "terrain"
+        },
+        {
+            "name": "stone",
+            "file": "6.png",
+            "type": "terrain"
+        },
+        {
+            "name": "water",
+            "file": "7.png",
+            "type": "terrain"
+        }
+    ]
+}
